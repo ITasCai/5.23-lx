@@ -8,8 +8,13 @@ namespace _5._23_lx
 {
     class Child:Parent
     {
-        public int Add(int x,int y,int z) {
-            return (x + y + z);
+        //public int Add(int x,int y,int z) {
+        //    return (x + y + z);
+        //}
+
+        public new  int Add(int x, int y) {
+            return (x+y+10);
         }
+
     }
 }
