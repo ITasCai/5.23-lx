@@ -10,6 +10,9 @@ namespace _5._23_lx
     {
         static void Main(string[] args)
         {
+            Animal a = new Animal(4,"母","白色");
+            Console.WriteLine(a);
+            Console.ReadKey();
         }
     }
 }
