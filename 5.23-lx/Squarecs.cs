@@ -12,8 +12,10 @@ namespace _5._23_lx
         /// 正方形的构造函数
         /// </summary>
         /// <param name="Color">颜色</param>
-        public Squarecs(string Color) {
+        /// <param name="Length">长度</param>
+        public Squarecs(string Color,double Length) {
             this.Color = Color;
+            this.Length =Length;
         }
         /// <summary>
         /// 正方形面积
