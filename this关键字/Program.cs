@@ -11,8 +11,7 @@ namespace this关键字
         static void Main(string[] args)
         {
             Student student = new Student("1001",88,"狗蛋");
-            double result = student.Show();
-            Console.WriteLine(result);
+            student.Show();
             Console.ReadKey();
 
         }

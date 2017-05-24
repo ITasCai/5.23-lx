@@ -16,15 +16,15 @@ namespace _5._23_lx
         /// </summary>
         protected double Radius;
         public Circle() {
-
+          
         }
         /// <summary>
         /// 圆形的构造函数，初始化颜色值
         /// </summary>
         /// <param name="Color">颜色</param>
-        public Circle(string Color,double Radius)
+        public Circle(string Color,double Radius) : base(Color)
         {
-            this.Color = Color;
+         
             this.Radius = Radius;
         }
         /// <summary>

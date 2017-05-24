@@ -14,8 +14,14 @@ namespace _5._23_lx
             //Console.WriteLine(a);
             //Console.ReadKey();
 
-            Child c1 = new Child();
-            Console.WriteLine(c1.Add(4, 5)); 
+            //Child c1 = new Child();
+            //Console.WriteLine(c1.Add(4, 5)); 
+
+            //圆
+            Circle c = new Circle("黑色",2.5);
+
+
+
             Console.ReadKey();
         }
     }

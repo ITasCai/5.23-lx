@@ -65,10 +65,11 @@ namespace this关键字
                 name = value;
             }
         }
-        public double Show() {
-            Console.WriteLine("学号{0},成绩:{1},姓名{2}",number,score,name);
+        public void  Show() {
+          
             double result = ChangeScore.Caculate(this);
-            return result;
+            Console.WriteLine("学号{0},成绩:{1},姓名{2},学分{3}", number, score, name, result);
+           
         }
     }
 }
